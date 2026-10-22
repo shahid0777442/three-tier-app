@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API = '/api/entries';
+const API = 'http://34.207.209.171:5000/api/entries';
 
 export default function App() {
   const [entries, setEntries] = useState([]);
